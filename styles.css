@@ -1,11 +1,28 @@
+body{
+    text-align: center;
+}
+#Soft-Candy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 #Soft-Candy ul{
-    background-color: green;
     flex-direction: row;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 10px;
-    padding: 10px
+    padding: 10px;
+    width: auto;
+    align-items: center;
 }
+#Soft-Candy div.card{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 275px;
+    padding: 1em;
+    margin: 4px;}
 
 label {
 display: flex;
@@ -16,11 +33,21 @@ flex-direction: column;
 #Candy-Categories ul li {
     list-style: none;
     text-emphasis: none;
+    margin: 4px;
 }
 #Candy-Categories ul a{
     text-decoration: none;
     font-weight: 900;
+    flex-direction: row;
+}
+nav ul{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+title, h1 {
+    padding-top: 100px;
 }
