@@ -1,19 +1,54 @@
-body{
+body {
     text-align: center;
-    background-color: blueviolet;
+    background-color: cornsilk;
+    font-family: "Trebuchet MS, Helvetica, sans-serif";
+    overflow: auto;
+    margin: 0;
+}
+section {
+    min-height: 100vh;
 }
 nav h1 {
-    background-image: url("./SPSresources/candyprime.png");
+    background-image: url("./SPSresources/Mixed-Candy.jpg");
+    background-size: cover;
     display: flex;
+    flex-direction: column;
     margin: 0;
+    overflow: auto;
     height: 200px;
     width: auto;
-    
+    font-weight: 700px;
+    font-style: initial;
     }
+h1 {
+    padding-top: 1em;
+    font-size: 3em;
+    background-color: green;
+    border-color: hotpink;
+    height: 3000px;
+    font-size: 100px;
+    m
+    
+}
+
 #Soft-Candy {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+#Miscellaneous-Candy{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: green;
+    justify-content: space-around
+}
+#Miscellaneous-Candy div div.card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: auto;
+    background-color: blue;
 }
 #Soft-Candy ul{
     flex-direction: row;
@@ -35,32 +70,41 @@ nav h1 {
     margin: 50px;
     height: auto;
     border: 1px solid red;
+    overflow: auto;
 }
-
 label {
 display: flex;
 color: blue;
 flex-direction: column;
 }
-
 #Candy-Categories ul li {
     list-style: none;
     text-emphasis: none;
     margin: 4px;
+    padding 
 }
 #Candy-Categories ul a{
     text-decoration: none;
-    font-weight: 900;
+    font-weight: 90;
+    font-size: .7em;
     flex-direction: row;
+    background-color: grey;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 nav ul{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 150px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin: 320px;
+    font-size: 50px;
 }
-title, h1 {
-    padding-top: 100px;
+#Chocolate {
+    border: 10rem darkcyan;
+    margin: 0;
+    padding: blue;
+    overflow: auto;
+}
+#Chocolate {
+    background-image: url("./SPSresources/Hersheys.jpg")
 }
