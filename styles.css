@@ -27,8 +27,6 @@ h1 {
     border-color: hotpink;
     height: 3000px;
     font-size: 100px;
-    m
-    
 }
 
 #Soft-Candy {
@@ -41,7 +39,7 @@ h1 {
     flex-direction: column;
     align-items: center;
     background-color: green;
-    justify-content: space-around
+    justify-content: space-around;
 }
 #Miscellaneous-Candy div div.card{
     display: flex;
@@ -73,9 +71,9 @@ h1 {
     overflow: auto;
 }
 label {
-display: flex;
-color: blue;
-flex-direction: column;
+    display: flex;
+    color: blue;
+    flex-direction: column;
 }
 #Candy-Categories ul li {
     list-style: none;
@@ -83,21 +81,11 @@ flex-direction: column;
     margin: 4px;
     padding 
 }
-#Candy-Categories ul a{
-    text-decoration: none;
-    font-weight: 90;
-    font-size: .7em;
-    flex-direction: row;
-    background-color: grey;
-    padding-left: 10px;
-    padding-right: 10px;
-}
 nav ul{
-    display: flex;
+    display: flex
     flex-direction: row;
     justify-content: space-around;
     margin: 320px;
-    font-size: 50px;
 }
 #Chocolate {
     border: 10rem darkcyan;
@@ -107,4 +95,24 @@ nav ul{
 }
 #Chocolate {
     background-image: url("./SPSresources/Hersheys.jpg")
+}
+#Chocolate div {
+    background-color: white;
+    padding: 10px;
+    height: max-content;
+}
+#Chocolate h2{
+    margin-top: 200px;
+    margin-bottom: 0px;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: white;
+}
+#Chocolate h2, #Chocolate div {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#Miscellaneous-Candy h4 {
+    margin: 0px;
+    padding: 0em;
 }
